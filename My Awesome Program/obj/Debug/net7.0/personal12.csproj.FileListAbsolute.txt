@@ -1,0 +1,15 @@
+C:\Users\Pwhod\AppData\Local\GitHubDesktop\app-3.1.2\personal12\My Awesome Program\obj\Debug\net7.0\personal12.csproj.AssemblyReference.cache
+C:\Users\Pwhod\AppData\Local\GitHubDesktop\app-3.1.2\personal12\My Awesome Program\obj\Debug\net7.0\personal12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pwhod\AppData\Local\GitHubDesktop\app-3.1.2\personal12\My Awesome Program\obj\Debug\net7.0\personal12.AssemblyInfoInputs.cache
+C:\Users\Pwhod\AppData\Local\GitHubDesktop\app-3.1.2\personal12\My Awesome Program\obj\Debug\net7.0\personal12.AssemblyInfo.cs
+C:\Users\Pwhod\AppData\Local\GitHubDesktop\app-3.1.2\personal12\My Awesome Program\obj\Debug\net7.0\personal12.csproj.CoreCompileInputs.cache
+C:\Users\Pwhod\AppData\Local\GitHubDesktop\app-3.1.2\personal12\My Awesome Program\bin\Debug\net7.0\personal12.exe
+C:\Users\Pwhod\AppData\Local\GitHubDesktop\app-3.1.2\personal12\My Awesome Program\bin\Debug\net7.0\personal12.deps.json
+C:\Users\Pwhod\AppData\Local\GitHubDesktop\app-3.1.2\personal12\My Awesome Program\bin\Debug\net7.0\personal12.runtimeconfig.json
+C:\Users\Pwhod\AppData\Local\GitHubDesktop\app-3.1.2\personal12\My Awesome Program\bin\Debug\net7.0\personal12.dll
+C:\Users\Pwhod\AppData\Local\GitHubDesktop\app-3.1.2\personal12\My Awesome Program\bin\Debug\net7.0\personal12.pdb
+C:\Users\Pwhod\AppData\Local\GitHubDesktop\app-3.1.2\personal12\My Awesome Program\obj\Debug\net7.0\personal12.dll
+C:\Users\Pwhod\AppData\Local\GitHubDesktop\app-3.1.2\personal12\My Awesome Program\obj\Debug\net7.0\refint\personal12.dll
+C:\Users\Pwhod\AppData\Local\GitHubDesktop\app-3.1.2\personal12\My Awesome Program\obj\Debug\net7.0\personal12.pdb
+C:\Users\Pwhod\AppData\Local\GitHubDesktop\app-3.1.2\personal12\My Awesome Program\obj\Debug\net7.0\personal12.genruntimeconfig.cache
+C:\Users\Pwhod\AppData\Local\GitHubDesktop\app-3.1.2\personal12\My Awesome Program\obj\Debug\net7.0\ref\personal12.dll
