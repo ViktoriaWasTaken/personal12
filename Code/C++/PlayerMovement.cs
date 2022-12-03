@@ -8,13 +8,13 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        ball_Rigidbody.AddForce(-transform.forward * 2500f);
+        ball_Rigidbody.AddForce(transform.forward * 2500f);
     }
 
     void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.name == "Cylinder") {
-            print("You lose!")
+            print("You lose!");
         }
     }
 
