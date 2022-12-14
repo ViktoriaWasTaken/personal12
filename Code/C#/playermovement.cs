@@ -1,27 +1,37 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
 public class PlayerMovement : MonoBehaviour
 {
+    public Rigidbody myRigidbody; // fixed variable name
+
     void Start()
     {
-        ball_Rigidbody.AddForce(transform.forward * 2500f);
+        myRigidbody.AddForce(transform.forward * 2500f); // use correct variable name
     }
 
     void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.name == "Cylinder") {
+        if (collision.gameObject.name == "Cylinder")
+        {
             print("You lose!");
         }
     }
-    // Speed at which the player moves
-    public float speed = 5.0f;
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        // Get input from the horizontal and vertical axes
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        if (Input.GetKey("left") || Input.GetKey("right"))
+        {
+            // Check that myRigidbody has been assigned
+            if (myRigidbody == null)
+            {
+                Debug.LogError("myRigidbody is not assigned!");
+                return;
+            }
 
-        // Use the input to move the player in the desired direction
-        transform.position += new Vector3(horizontal, 0, vertical) * speed * Time.deltaTime;
+            Vector3 myInput = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            myRigidbody.MovePosition(transform.position + myInput * Time.deltaTime * 5f);
+        } 
     }
 }

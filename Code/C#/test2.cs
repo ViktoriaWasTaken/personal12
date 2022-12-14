@@ -12,11 +12,17 @@ namespace TextGame
             // Set the initial location of the player
             string location = "room";
 
+            // Set the initial inventory of the player
+            string[] inventory = new string[10];
+
+            // Set the initial game state
+            bool gameOver = false;
+
             // Print a welcome message
             Console.WriteLine("Welcome to the game! You are in a dark room. Your health is 100.");
 
             // Start the game loop
-            while (true)
+            while (!gameOver)
             {
                 // Prompt the player for input
                 Console.WriteLine("What would you like to do?");
@@ -26,7 +32,7 @@ namespace TextGame
                 if (input == "quit")
                 {
                     // If the player wants to quit, break out of the game loop
-                    break;
+                    gameOver = true;
                 }
                 else if (input == "look")
                 {
@@ -37,6 +43,17 @@ namespace TextGame
                 {
                     // If the player wants to check their health, print their current health
                     Console.WriteLine("Your health is " + health);
+                }
+                else if (input == "go north")
+                {
+                    // If the player wants to go north, update the location
+                    location = "north room";
+                    Console.WriteLine("You are now in the " + location);
+                }
+                else if (input == "go south")
+                {
+                    location = "south room";
+                    Console.WriteLine("You are now in the " + location);
                 }
                 else
                 {
