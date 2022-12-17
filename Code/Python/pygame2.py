@@ -72,4 +72,10 @@ def take_action(action):
         current_location = "south of town"
     elif action == "go east":
         current_location = "east of town"
-    elif action == "
+    elif action == "go west":
+        current_location = "west of town"
+
+def interaction(action):
+    global npc_interaction
+    if action = "talk to guard" and location = "town square"
+            print():
